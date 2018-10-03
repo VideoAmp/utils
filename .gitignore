@@ -1,5 +1,18 @@
+# Intellij specific
+.idea
+*.iml
+*.cache
+*pytest*
+
+*.pyc
+*.egg-info
+build/
+dist/
+
+.venv
+Pipfile.lock
+
 *.swp
 *.swo
-*.pyc
 *.swn
 *.swm
