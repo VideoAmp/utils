@@ -1,18 +1,14 @@
 # Author: O. Hoidn
 import numpy as np
-import copy
 import os
 import dill
 import pkg_resources
 from time import time
-import pdb
 import hashlib
 import itertools
-#import playback
 import random
 import operator
 from .output import log
-from .output import conditional_decorator
 from functools import reduce
 
 
